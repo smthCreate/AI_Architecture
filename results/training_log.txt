@@ -1,0 +1,90 @@
+2025-12-27 22:27:10,193 - Начало обучения модели...
+2025-12-27 22:27:33,653 - Epoch [1/20], Train Loss: 0.4082, Train Accuracy: 3.4536, Val Loss: 0.3042, IoU: 0.1578, Dice: 0.2335, Pixel Accuracy: 3.5179
+2025-12-27 22:27:56,605 - Epoch [2/20], Train Loss: 0.2886, Train Accuracy: 3.5489, Val Loss: 0.2482, IoU: 0.2105, Dice: 0.3407, Pixel Accuracy: 3.5478
+2025-12-27 22:28:20,618 - Epoch [3/20], Train Loss: 0.2723, Train Accuracy: 3.5205, Val Loss: 0.2380, IoU: 0.2637, Dice: 0.4061, Pixel Accuracy: 3.5459
+2025-12-27 22:28:43,677 - Epoch [4/20], Train Loss: 0.2651, Train Accuracy: 3.5027, Val Loss: 0.2233, IoU: 0.4469, Dice: 0.5910, Pixel Accuracy: 3.5058
+2025-12-27 22:29:06,591 - Epoch [5/20], Train Loss: 0.2574, Train Accuracy: 3.4982, Val Loss: 0.2271, IoU: 0.4561, Dice: 0.6011, Pixel Accuracy: 3.5058
+2025-12-27 22:29:29,421 - Epoch [6/20], Train Loss: 0.2514, Train Accuracy: 3.5004, Val Loss: 0.2046, IoU: 0.5518, Dice: 0.6785, Pixel Accuracy: 3.4993
+2025-12-27 22:29:52,221 - Epoch [7/20], Train Loss: 0.2500, Train Accuracy: 3.4911, Val Loss: 0.2146, IoU: 0.3438, Dice: 0.4973, Pixel Accuracy: 3.5433
+2025-12-27 22:30:14,868 - Epoch [8/20], Train Loss: 0.2478, Train Accuracy: 3.4926, Val Loss: 0.2075, IoU: 0.4526, Dice: 0.5970, Pixel Accuracy: 3.5210
+2025-12-27 22:30:37,673 - Epoch [9/20], Train Loss: 0.2416, Train Accuracy: 3.4895, Val Loss: 0.2313, IoU: 0.3026, Dice: 0.4487, Pixel Accuracy: 3.5526
+2025-12-27 22:31:00,480 - Epoch [10/20], Train Loss: 0.2384, Train Accuracy: 3.4852, Val Loss: 0.1936, IoU: 0.5357, Dice: 0.6659, Pixel Accuracy: 3.5107
+2025-12-27 22:31:23,199 - Epoch [11/20], Train Loss: 0.2402, Train Accuracy: 3.4840, Val Loss: 0.2102, IoU: 0.7532, Dice: 0.8087, Pixel Accuracy: 3.4171
+2025-12-27 22:31:45,901 - Epoch [12/20], Train Loss: 0.2331, Train Accuracy: 3.4780, Val Loss: 0.2077, IoU: 0.4201, Dice: 0.5711, Pixel Accuracy: 3.5341
+2025-12-27 22:32:08,780 - Epoch [13/20], Train Loss: 0.2314, Train Accuracy: 3.4786, Val Loss: 0.2121, IoU: 0.3668, Dice: 0.5131, Pixel Accuracy: 3.5494
+2025-12-27 22:32:31,596 - Epoch [14/20], Train Loss: 0.2302, Train Accuracy: 3.4787, Val Loss: 0.1926, IoU: 0.4703, Dice: 0.6137, Pixel Accuracy: 3.5282
+2025-12-27 22:32:55,298 - Epoch [15/20], Train Loss: 0.2310, Train Accuracy: 3.4798, Val Loss: 0.1955, IoU: 0.5071, Dice: 0.6450, Pixel Accuracy: 3.5189
+2025-12-27 22:33:19,290 - Epoch [16/20], Train Loss: 0.2264, Train Accuracy: 3.4825, Val Loss: 0.1858, IoU: 0.5983, Dice: 0.7105, Pixel Accuracy: 3.4993
+2025-12-27 22:33:42,774 - Epoch [17/20], Train Loss: 0.2259, Train Accuracy: 3.4737, Val Loss: 0.1928, IoU: 0.5867, Dice: 0.7028, Pixel Accuracy: 3.5080
+2025-12-27 22:34:04,578 - Epoch [18/20], Train Loss: 0.2251, Train Accuracy: 3.4758, Val Loss: 0.1860, IoU: 0.5514, Dice: 0.6800, Pixel Accuracy: 3.5149
+2025-12-27 22:34:29,077 - Epoch [19/20], Train Loss: 0.2287, Train Accuracy: 3.4766, Val Loss: 0.2083, IoU: 0.5409, Dice: 0.6710, Pixel Accuracy: 3.5057
+2025-12-27 22:34:54,143 - Epoch [20/20], Train Loss: 0.2239, Train Accuracy: 3.4683, Val Loss: 0.1968, IoU: 0.6561, Dice: 0.7570, Pixel Accuracy: 3.4861
+2025-12-27 22:34:54,212 - Best model saved to results/best_model.pth
+2025-12-27 22:37:44,769 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.099695].
+2025-12-27 22:42:17,533 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.099695].
+2025-12-27 22:43:12,539 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.099695].
+2025-12-27 22:43:37,660 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.099695].
+2025-12-27 22:44:37,316 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.099695].
+2025-12-27 22:44:37,318 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.1236601].
+2025-12-27 22:44:37,321 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.099695].
+2025-12-27 22:44:37,324 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.0822659].
+2025-12-27 22:44:37,405 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.8556863].
+2025-12-27 22:44:37,410 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.6639651].
+2025-12-27 22:44:37,413 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.9079739].
+2025-12-27 22:44:37,417 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.2216992].
+2025-12-27 22:44:37,498 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.0474074].
+2025-12-27 22:44:37,501 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.925403].
+2025-12-27 22:44:37,503 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.6813943].
+2025-12-27 22:44:37,506 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.9079739].
+2025-12-27 22:44:37,578 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.8033987].
+2025-12-27 22:44:37,581 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.9428322].
+2025-12-27 22:44:37,583 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.9428322].
+2025-12-27 22:44:37,586 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.4896731].
+2025-12-27 22:44:37,651 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.1345534].
+2025-12-27 22:44:37,653 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.1519825].
+2025-12-27 22:44:37,656 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..2.0474074].
+2025-12-27 22:44:37,658 - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-2.117904..1.6291068].
+2025-12-27 22:49:13,195 - Начало обучения модели...
+2025-12-27 22:49:13,195 - Начало обучения модели...
+2025-12-27 22:49:35,875 - Epoch [1/20], Train Loss: 0.3556, Train Accuracy: 3.5408, Val Loss: 0.2766, IoU: 0.0002, Dice: 0.0005, Pixel Accuracy: 3.5964
+2025-12-27 22:49:35,875 - Epoch [1/20], Train Loss: 0.3556, Train Accuracy: 3.5408, Val Loss: 0.2766, IoU: 0.0002, Dice: 0.0005, Pixel Accuracy: 3.5964
+2025-12-27 22:49:57,320 - Epoch [2/20], Train Loss: 0.2890, Train Accuracy: 3.5468, Val Loss: 0.2613, IoU: 0.1030, Dice: 0.1849, Pixel Accuracy: 3.5769
+2025-12-27 22:49:57,320 - Epoch [2/20], Train Loss: 0.2890, Train Accuracy: 3.5468, Val Loss: 0.2613, IoU: 0.1030, Dice: 0.1849, Pixel Accuracy: 3.5769
+2025-12-27 22:50:19,610 - Epoch [3/20], Train Loss: 0.2696, Train Accuracy: 3.5109, Val Loss: 0.2405, IoU: 0.1738, Dice: 0.2911, Pixel Accuracy: 3.5689
+2025-12-27 22:50:19,610 - Epoch [3/20], Train Loss: 0.2696, Train Accuracy: 3.5109, Val Loss: 0.2405, IoU: 0.1738, Dice: 0.2911, Pixel Accuracy: 3.5689
+2025-12-27 22:50:42,613 - Epoch [4/20], Train Loss: 0.2637, Train Accuracy: 3.5086, Val Loss: 0.2355, IoU: 0.2573, Dice: 0.3995, Pixel Accuracy: 3.5555
+2025-12-27 22:50:42,613 - Epoch [4/20], Train Loss: 0.2637, Train Accuracy: 3.5086, Val Loss: 0.2355, IoU: 0.2573, Dice: 0.3995, Pixel Accuracy: 3.5555
+2025-12-27 22:51:05,781 - Epoch [5/20], Train Loss: 0.2581, Train Accuracy: 3.4977, Val Loss: 0.2635, IoU: 0.1230, Dice: 0.2168, Pixel Accuracy: 3.5760
+2025-12-27 22:51:05,781 - Epoch [5/20], Train Loss: 0.2581, Train Accuracy: 3.4977, Val Loss: 0.2635, IoU: 0.1230, Dice: 0.2168, Pixel Accuracy: 3.5760
+2025-12-27 22:51:28,797 - Epoch [6/20], Train Loss: 0.2513, Train Accuracy: 3.5024, Val Loss: 0.2380, IoU: 0.3969, Dice: 0.5472, Pixel Accuracy: 3.5129
+2025-12-27 22:51:28,797 - Epoch [6/20], Train Loss: 0.2513, Train Accuracy: 3.5024, Val Loss: 0.2380, IoU: 0.3969, Dice: 0.5472, Pixel Accuracy: 3.5129
+2025-12-27 22:51:51,778 - Epoch [7/20], Train Loss: 0.2536, Train Accuracy: 3.4967, Val Loss: 0.2089, IoU: 0.4113, Dice: 0.5625, Pixel Accuracy: 3.5292
+2025-12-27 22:51:51,778 - Epoch [7/20], Train Loss: 0.2536, Train Accuracy: 3.4967, Val Loss: 0.2089, IoU: 0.4113, Dice: 0.5625, Pixel Accuracy: 3.5292
+2025-12-27 22:52:14,829 - Epoch [8/20], Train Loss: 0.2438, Train Accuracy: 3.4899, Val Loss: 0.2032, IoU: 0.4798, Dice: 0.6254, Pixel Accuracy: 3.5158
+2025-12-27 22:52:14,829 - Epoch [8/20], Train Loss: 0.2438, Train Accuracy: 3.4899, Val Loss: 0.2032, IoU: 0.4798, Dice: 0.6254, Pixel Accuracy: 3.5158
+2025-12-27 22:52:37,739 - Epoch [9/20], Train Loss: 0.2404, Train Accuracy: 3.4896, Val Loss: 0.2071, IoU: 0.4093, Dice: 0.5609, Pixel Accuracy: 3.5288
+2025-12-27 22:52:37,739 - Epoch [9/20], Train Loss: 0.2404, Train Accuracy: 3.4896, Val Loss: 0.2071, IoU: 0.4093, Dice: 0.5609, Pixel Accuracy: 3.5288
+2025-12-27 22:53:00,696 - Epoch [10/20], Train Loss: 0.2392, Train Accuracy: 3.4803, Val Loss: 0.2033, IoU: 0.4690, Dice: 0.6127, Pixel Accuracy: 3.5186
+2025-12-27 22:53:00,696 - Epoch [10/20], Train Loss: 0.2392, Train Accuracy: 3.4803, Val Loss: 0.2033, IoU: 0.4690, Dice: 0.6127, Pixel Accuracy: 3.5186
+2025-12-27 22:53:23,624 - Epoch [11/20], Train Loss: 0.2392, Train Accuracy: 3.4865, Val Loss: 0.2031, IoU: 0.5339, Dice: 0.6690, Pixel Accuracy: 3.5030
+2025-12-27 22:53:23,624 - Epoch [11/20], Train Loss: 0.2392, Train Accuracy: 3.4865, Val Loss: 0.2031, IoU: 0.5339, Dice: 0.6690, Pixel Accuracy: 3.5030
+2025-12-27 22:53:46,596 - Epoch [12/20], Train Loss: 0.2328, Train Accuracy: 3.4715, Val Loss: 0.2028, IoU: 0.4838, Dice: 0.6260, Pixel Accuracy: 3.5078
+2025-12-27 22:53:46,596 - Epoch [12/20], Train Loss: 0.2328, Train Accuracy: 3.4715, Val Loss: 0.2028, IoU: 0.4838, Dice: 0.6260, Pixel Accuracy: 3.5078
+2025-12-27 22:54:09,879 - Epoch [13/20], Train Loss: 0.2336, Train Accuracy: 3.4766, Val Loss: 0.2039, IoU: 0.4094, Dice: 0.5517, Pixel Accuracy: 3.5389
+2025-12-27 22:54:09,879 - Epoch [13/20], Train Loss: 0.2336, Train Accuracy: 3.4766, Val Loss: 0.2039, IoU: 0.4094, Dice: 0.5517, Pixel Accuracy: 3.5389
+2025-12-27 22:54:33,061 - Epoch [14/20], Train Loss: 0.2305, Train Accuracy: 3.4813, Val Loss: 0.2016, IoU: 0.4243, Dice: 0.5711, Pixel Accuracy: 3.5340
+2025-12-27 22:54:33,061 - Epoch [14/20], Train Loss: 0.2305, Train Accuracy: 3.4813, Val Loss: 0.2016, IoU: 0.4243, Dice: 0.5711, Pixel Accuracy: 3.5340
+2025-12-27 22:54:56,060 - Epoch [15/20], Train Loss: 0.2278, Train Accuracy: 3.4756, Val Loss: 0.1910, IoU: 0.6434, Dice: 0.7485, Pixel Accuracy: 3.4848
+2025-12-27 22:54:56,060 - Epoch [15/20], Train Loss: 0.2278, Train Accuracy: 3.4756, Val Loss: 0.1910, IoU: 0.6434, Dice: 0.7485, Pixel Accuracy: 3.4848
+2025-12-27 22:55:18,916 - Epoch [16/20], Train Loss: 0.2251, Train Accuracy: 3.4737, Val Loss: 0.1836, IoU: 0.6113, Dice: 0.7198, Pixel Accuracy: 3.5024
+2025-12-27 22:55:18,916 - Epoch [16/20], Train Loss: 0.2251, Train Accuracy: 3.4737, Val Loss: 0.1836, IoU: 0.6113, Dice: 0.7198, Pixel Accuracy: 3.5024
+2025-12-27 22:55:41,909 - Epoch [17/20], Train Loss: 0.2248, Train Accuracy: 3.4713, Val Loss: 0.1863, IoU: 0.6309, Dice: 0.7335, Pixel Accuracy: 3.4956
+2025-12-27 22:55:41,909 - Epoch [17/20], Train Loss: 0.2248, Train Accuracy: 3.4713, Val Loss: 0.1863, IoU: 0.6309, Dice: 0.7335, Pixel Accuracy: 3.4956
+2025-12-27 22:56:04,943 - Epoch [18/20], Train Loss: 0.2265, Train Accuracy: 3.4754, Val Loss: 0.2004, IoU: 0.5304, Dice: 0.6549, Pixel Accuracy: 3.5087
+2025-12-27 22:56:04,943 - Epoch [18/20], Train Loss: 0.2265, Train Accuracy: 3.4754, Val Loss: 0.2004, IoU: 0.5304, Dice: 0.6549, Pixel Accuracy: 3.5087
+2025-12-27 22:56:27,886 - Epoch [19/20], Train Loss: 0.2238, Train Accuracy: 3.4696, Val Loss: 0.1791, IoU: 0.5417, Dice: 0.6707, Pixel Accuracy: 3.5197
+2025-12-27 22:56:27,886 - Epoch [19/20], Train Loss: 0.2238, Train Accuracy: 3.4696, Val Loss: 0.1791, IoU: 0.5417, Dice: 0.6707, Pixel Accuracy: 3.5197
+2025-12-27 22:56:51,105 - Epoch [20/20], Train Loss: 0.2218, Train Accuracy: 3.4662, Val Loss: 0.1800, IoU: 0.5576, Dice: 0.6795, Pixel Accuracy: 3.5163
+2025-12-27 22:56:51,105 - Epoch [20/20], Train Loss: 0.2218, Train Accuracy: 3.4662, Val Loss: 0.1800, IoU: 0.5576, Dice: 0.6795, Pixel Accuracy: 3.5163
+2025-12-27 22:56:51,159 - Best model saved to results/best_model_unet.pth
+2025-12-27 22:56:51,159 - Best model saved to results/best_model_unet.pth
