@@ -1,0 +1,257 @@
+:root {
+  --bg: #0f172a;
+  --surface: #111827;
+  --card: #1f2937;
+  --accent: #38bdf8;
+  --accent-soft: #0ea5e9;
+  --text: #f8fafc;
+  --muted: #cbd5f5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #111827 100%);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.container {
+  width: min(1150px, 92%);
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 3rem 0 0;
+}
+
+.header-content {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  max-width: 500px;
+}
+
+.stat-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.stat-card {
+  background: rgba(15, 23, 42, 0.6);
+  padding: 1.2rem;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.stat-card h3 {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.site-nav {
+  margin-top: 2.5rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  padding: 1rem 0;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section.alt {
+  background: rgba(15, 23, 42, 0.4);
+}
+
+.section h2 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin-bottom: 2rem;
+}
+
+.grid,
+.library-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 1.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.35);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.card ul {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  color: var(--muted);
+}
+
+.calculator-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.calculator p {
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.input-row,
+.matrix-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(15, 23, 42, 0.6);
+  color: var(--text);
+}
+
+button {
+  background: var(--accent-soft);
+  color: var(--text);
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: var(--accent);
+}
+
+.result {
+  margin-top: 0.9rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.steps {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.step {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 48px 1fr;
+  align-items: center;
+  background: var(--card);
+  padding: 1.2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.step span {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--bg);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.site-footer {
+  padding: 3rem 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.footer-content {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .nav-links {
+    justify-content: flex-start;
+  }
+
+  .step {
+    grid-template-columns: 1fr;
+  }
+
+  .step span {
+    margin-inline-start: auto;
+  }
+}
