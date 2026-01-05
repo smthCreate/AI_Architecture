@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بوابة الرياضيات الشاملة</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <p class="eyebrow">منصة معرفية تفاعلية</p>
+        <h1>بوابة الرياضيات الشاملة</h1>
+        <p class="subtitle">
+          قواعد، معلومات، حلول معادلات، وحاسبات عملية في مكان واحد.
+        </p>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <h3>120+</h3>
+          <p>قاعدة ونظرية</p>
+        </div>
+        <div class="stat-card">
+          <h3>8</h3>
+          <p>حاسبات فورية</p>
+        </div>
+        <div class="stat-card">
+          <h3>24/7</h3>
+          <p>إجابات مباشرة</p>
+        </div>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <div class="container nav-links">
+        <a href="#rules">القواعد الأساسية</a>
+        <a href="#calculators">الحاسبات</a>
+        <a href="#library">مكتبة المعادلات</a>
+        <a href="#guide">دليل الحلول</a>
+        <a href="#signup">التسجيل</a>
+        <a href="#support">الدعم</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="signup" class="section alt">
+      <div class="container">
+        <h2>التسجيل بالبريد الإلكتروني</h2>
+        <div class="signup-grid">
+          <div class="card">
+            <h3>خطوة 1: إرسال رمز التحقق</h3>
+            <p>أدخل بريدك الإلكتروني لإرسال رمز التحقق.</p>
+            <div class="input-row">
+              <input type="email" id="signup-email" placeholder="name@example.com" />
+            </div>
+            <button data-action="send-code">إرسال الرمز</button>
+            <p class="result" id="signup-send-result">سيصلك رمز التحقق على بريدك الإلكتروني.</p>
+          </div>
+          <div class="card">
+            <h3>خطوة 2: تأكيد التسجيل</h3>
+            <p>أدخل رمز التحقق الذي وصل إلى بريدك الإلكتروني.</p>
+            <div class="input-row">
+              <input type="text" id="signup-code" placeholder="رمز التحقق" />
+            </div>
+            <button data-action="verify-code">تأكيد التسجيل</button>
+            <p class="result" id="signup-verify-result">أدخل الرمز لإكمال التسجيل.</p>
+          </div>
+          <div class="card highlight">
+            <h3>ملاحظات مهمة</h3>
+            <ul>
+              <li>رمز التحقق صالح لمدة 5 دقائق.</li>
+              <li>تأكد من صحة البريد الإلكتروني قبل الإرسال.</li>
+              <li>إذا لم يصلك الرمز، تحقق من صندوق الرسائل غير المرغوب فيها.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rules" class="section">
+      <div class="container">
+        <h2>القواعد الأساسية في الرياضيات</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>قوانين الجبر</h3>
+            <ul>
+              <li>توزيع: a(b + c) = ab + ac</li>
+              <li>عوامل مشتركة: ab + ac = a(b + c)</li>
+              <li>المربعات: (a ± b)<sup>2</sup> = a<sup>2</sup> ± 2ab + b<sup>2</sup></li>
+              <li>فرق المربعين: a<sup>2</sup> - b<sup>2</sup> = (a - b)(a + b)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>قوانين الأسس والجذور</h3>
+            <ul>
+              <li>a<sup>m</sup> · a<sup>n</sup> = a<sup>m+n</sup></li>
+              <li>a<sup>m</sup> / a<sup>n</sup> = a<sup>m-n</sup></li>
+              <li>(a<sup>m</sup>)<sup>n</sup> = a<sup>mn</sup></li>
+              <li>√(ab) = √a · √b</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>قوانين المثلثات</h3>
+            <ul>
+              <li>مجموع زوايا المثلث = 180°</li>
+              <li>قانون الجيب: a / sin A = b / sin B = c / sin C</li>
+              <li>قانون جيب التمام: c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> - 2ab cos C</li>
+              <li>فيثاغورس: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>الاحتمالات والإحصاء</h3>
+            <ul>
+              <li>P(A) = عدد النواتج الملائمة / عدد النواتج الكلية</li>
+              <li>المتوسط الحسابي = مجموع القيم / عددها</li>
+              <li>الانحراف المعياري = √(∑(x - μ)<sup>2</sup> / n)</li>
+              <li>التباديل: P(n, r) = n! / (n - r)!</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculators" class="section alt">
+      <div class="container">
+        <h2>حاسبات المعادلات والحسابات</h2>
+        <div class="calculator-grid">
+          <div class="calculator card">
+            <h3>حل معادلة خطية</h3>
+            <p>المعادلة على الصورة: ax + b = 0</p>
+            <div class="input-row">
+              <input type="number" id="linear-a" placeholder="a" />
+              <input type="number" id="linear-b" placeholder="b" />
+            </div>
+            <button data-action="solve-linear">احسب الحل</button>
+            <p class="result" id="linear-result">أدخل القيم للحصول على الحل.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>حل معادلة تربيعية</h3>
+            <p>المعادلة على الصورة: ax<sup>2</sup> + bx + c = 0</p>
+            <div class="input-row">
+              <input type="number" id="quad-a" placeholder="a" />
+              <input type="number" id="quad-b" placeholder="b" />
+              <input type="number" id="quad-c" placeholder="c" />
+            </div>
+            <button data-action="solve-quadratic">احسب الجذور</button>
+            <p class="result" id="quad-result">أدخل القيم للحصول على الجذور.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>القاسم المشترك والْم.أ.م</h3>
+            <p>احسب القاسم المشترك الأكبر والمضاعف المشترك الأصغر.</p>
+            <div class="input-row">
+              <input type="number" id="gcd-a" placeholder="العدد الأول" />
+              <input type="number" id="gcd-b" placeholder="العدد الثاني" />
+            </div>
+            <button data-action="calc-gcd">احسب</button>
+            <p class="result" id="gcd-result">أدخل عددين صحيحين.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>اختبار أولية عدد</h3>
+            <p>تحقق من كون العدد أولياً.</p>
+            <input type="number" id="prime-input" placeholder="أدخل العدد" />
+            <button data-action="check-prime">تحقق</button>
+            <p class="result" id="prime-result">أدخل عددًا صحيحًا أكبر من 1.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>التباديل والتوافيق</h3>
+            <p>احسب nPr و nCr.</p>
+            <div class="input-row">
+              <input type="number" id="perm-n" placeholder="n" />
+              <input type="number" id="perm-r" placeholder="r" />
+            </div>
+            <button data-action="calc-perm">احسب</button>
+            <p class="result" id="perm-result">أدخل n و r بحيث n ≥ r ≥ 0.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>محدد مصفوفة 2×2</h3>
+            <p>المصفوفة على الصورة: |a b| / |c d|</p>
+            <div class="matrix-grid">
+              <input type="number" id="det-a" placeholder="a" />
+              <input type="number" id="det-b" placeholder="b" />
+              <input type="number" id="det-c" placeholder="c" />
+              <input type="number" id="det-d" placeholder="d" />
+            </div>
+            <button data-action="calc-det">احسب المحدد</button>
+            <p class="result" id="det-result">أدخل قيم المصفوفة.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>حل نظام معادلتين</h3>
+            <p>المعادلتان: a1x + b1y = c1 و a2x + b2y = c2</p>
+            <div class="matrix-grid">
+              <input type="number" id="sys-a1" placeholder="a1" />
+              <input type="number" id="sys-b1" placeholder="b1" />
+              <input type="number" id="sys-c1" placeholder="c1" />
+              <input type="number" id="sys-a2" placeholder="a2" />
+              <input type="number" id="sys-b2" placeholder="b2" />
+              <input type="number" id="sys-c2" placeholder="c2" />
+            </div>
+            <button data-action="solve-system">احسب الحل</button>
+            <p class="result" id="system-result">أدخل قيم المعادلتين.</p>
+          </div>
+
+          <div class="calculator card">
+            <h3>حساب المتتابعة الحسابية</h3>
+            <p>المعادلة: a<sub>n</sub> = a<sub>1</sub> + (n-1)d</p>
+            <div class="input-row">
+              <input type="number" id="seq-a1" placeholder="a1" />
+              <input type="number" id="seq-d" placeholder="d" />
+              <input type="number" id="seq-n" placeholder="n" />
+            </div>
+            <button data-action="calc-seq">احسب الحد</button>
+            <p class="result" id="seq-result">أدخل قيم المتتابعة.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="library" class="section">
+      <div class="container">
+        <h2>مكتبة المعادلات</h2>
+        <div class="library-grid">
+          <div class="card">
+            <h3>الهندسة</h3>
+            <ul>
+              <li>مساحة الدائرة = πr<sup>2</sup></li>
+              <li>محيط الدائرة = 2πr</li>
+              <li>مساحة المثلث = (القاعدة × الارتفاع) / 2</li>
+              <li>حجم الكرة = 4/3 πr<sup>3</sup></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>التفاضل</h3>
+            <ul>
+              <li>d/dx (x<sup>n</sup>) = n x<sup>n-1</sup></li>
+              <li>d/dx (sin x) = cos x</li>
+              <li>d/dx (cos x) = -sin x</li>
+              <li>d/dx (e<sup>x</sup>) = e<sup>x</sup></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>التكامل</h3>
+            <ul>
+              <li>∫ x<sup>n</sup> dx = x<sup>n+1</sup> / (n + 1)</li>
+              <li>∫ sin x dx = -cos x + C</li>
+              <li>∫ cos x dx = sin x + C</li>
+              <li>∫ e<sup>x</sup> dx = e<sup>x</sup> + C</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>المتتاليات والمتسلسلات</h3>
+            <ul>
+              <li>مجموع المتتابعة الحسابية = n/2 (2a1 + (n-1)d)</li>
+              <li>مجموع المتتابعة الهندسية = a1 (1 - r<sup>n</sup>) / (1 - r)</li>
+              <li>مجموع المتسلسلة اللانهائية = a1 / (1 - r) |r| &lt; 1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guide" class="section alt">
+      <div class="container">
+        <h2>دليل سريع لحل المعادلات</h2>
+        <div class="steps">
+          <div class="step">
+            <span>1</span>
+            <div>
+              <h3>تحديد نوع المعادلة</h3>
+              <p>هل هي خطية، تربيعية، أو نظام معادلات؟ تحديد النوع يوجهك للأداة المناسبة.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span>2</span>
+            <div>
+              <h3>تبسيط الحدود</h3>
+              <p>اجمع الحدود المتشابهة وانقل الحدود إلى نفس الطرف للحصول على صورة واضحة.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span>3</span>
+            <div>
+              <h3>تطبيق القاعدة الصحيحة</h3>
+              <p>استخدم قوانين التحليل أو الصيغة العامة لتفكيك المعادلة وحساب الجذور.</p>
+            </div>
+          </div>
+          <div class="step">
+            <span>4</span>
+            <div>
+              <h3>التحقق من الحل</h3>
+              <p>أعد تعويض الحل في المعادلة الأصلية للتأكد من صحة النتيجة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="section">
+      <div class="container support-layout">
+        <div>
+          <h2>تواصل مع الدعم</h2>
+          <p>فريق الدعم جاهز للإجابة عن أسئلتك التقنية أو التعليمية.</p>
+          <p>
+            تواصل معنا عبر البريد الإلكتروني:
+            <a class="support-link" href="mailto:anaselmorabet12@gmail.com">anaselmorabet12@gmail.com</a>
+          </p>
+        </div>
+        <div class="card support-card">
+          <h3>متى تتواصل معنا؟</h3>
+          <ul>
+            <li>عند وجود مشكلة في الحاسبات.</li>
+            <li>عند الحاجة إلى محتوى تعليمي إضافي.</li>
+            <li>للاقتراحات والشراكات التعليمية.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <h2>تعلم، حل، واستكشف</h2>
+        <p>اجعل الرياضيات واضحة وعملية باستخدام الأدوات والقواعد المتقدمة هنا.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#rules">القواعد</a>
+        <a href="#calculators">الحاسبات</a>
+        <a href="#library">المكتبة</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
